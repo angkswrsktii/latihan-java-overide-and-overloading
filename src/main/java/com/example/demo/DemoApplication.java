@@ -24,13 +24,13 @@ public class DemoApplication {
 		}
 	}
 
-	public static class Aritmatika {
-		public int perkalian(int a, int b) {
+	public static class Matematika {
+		public int perkalian1(int a, int b) {
 			int resultKali = a * b;
 			return resultKali;
 		}
 
-		public int perkalian(int a, int b, int c) {
+		public int perkalian2(int a, int b, int c) {
 			int resultKali = a * b * c;
 			return resultKali;
 		}
@@ -53,17 +53,17 @@ public class DemoApplication {
 			Hewan hewan = new Hewan();
 			hewan.makan();
 
-			Aritmatika aritmatika1 = new Aritmatika();
+			Matematika matematika1 = new Matematika();
 
-			int result1 = aritmatika1.perkalian(2, 3);
+			int result1 = matematika1.perkalian1(2, 3);
 
 			System.out.println("Result dua integer value: " + result1);
 
-			int result2 = aritmatika1.perkalian(2, 3, 4);
+			int result2 = matematika1.perkalian2(2, 3, 4);
 
-			System.out.println("Result of the three integer value: " + result2);
+			System.out.println("Result tiga integer value: " + result2);
 
-			aritmatika1.hasil(true, "Halo", 5);
+			matematika1.hasil(true, "Halo", 5);
 		}
 	}
 }
