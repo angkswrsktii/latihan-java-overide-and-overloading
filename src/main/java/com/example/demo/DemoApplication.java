@@ -11,10 +11,10 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		Mobil mobil = new Mobil();
 		Kendaraan kendaraan = new Kendaraan();
+		Matematika matematika1 = new Matematika();
+
 		mobil.jalan();
 		kendaraan.jalan();
-
-		Matematika matematika1 = new Matematika();
 
 		int result1 = matematika1.perkalian1(2, 3);
 		System.out.println("Result dua integer value: " + result1);
